@@ -1,0 +1,58 @@
+<!DOCTYPE html> 
+<html> 
+    <head> 
+        <title> 
+            CSS child Selector 
+        </title> 
+        <style> 
+            /* ##This is child selector demo */
+            .parent-div > .child-div1 > #p1 { 
+                color:white; 
+                background: green; 
+                padding:2px;
+                font-weight: lighter; 
+            }
+            .parent-div > .child-div1 > p { 
+                color:white; 
+                background: blueviolet; 
+                padding:2px; 
+            }
+
+            /* ##This is a descendant selector Demo */
+            .parent-div  p {
+                font-weight: bold;
+            }
+        </style> 
+    </head> 
+      
+    <body style = "text-align: center;"> 
+        <div class="parent-div">
+            <div class="child-div1"> 
+            <h2 style = "color:green;"> 
+                I am Heading in First child Div
+            </h2> 
+              
+            <p id="p1"> 
+                I am p1 in First child Div
+            </p>
+	        <p id="p2"> 
+                I am p2 in First child Div
+            </p>
+            </div> 
+            <div class="child-div2">
+                <h4 style = "color:green;"> 
+                    I am Heading in Second child Div 
+                </h4> 
+                 <a href="index.html"></a> 
+                <p> 
+                    I am p in First child Div 
+                </p>
+            </div>
+        </div> 
+          
+        <p>Geeks Classes is a quick course to cover 
+        algorithms questions.</p> 
+          
+        <p>This paragraph will not be styled.</p> 
+    </body> 
+</html>

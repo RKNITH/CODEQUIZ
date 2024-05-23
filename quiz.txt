@@ -1,0 +1,67 @@
+1) HTML stands for -
+
+A. HighText Machine Language
+B. HyperText and links Markup Language
+C. HyperText Markup Language
+D. None of these
+
+
+2) The correct sequence of HTML tags for starting a webpage is -
+
+A. Head, Title, HTML, body
+B. HTML, Body, Title, Head
+C. HTML, Title, Head, Body
+D. HTML, Head, Title, Body
+
+3) how many heading tags in HTML?
+A. 3
+B. 6
+C. 5
+D. 8
+
+4) what is the smallest heading in HTML ?
+A. h1
+B. h2
+C. h6
+D. h4
+
+5) How to insert an image in HTML?
+
+A. <img href = "jtp.png" />
+B. <img url = "jtp.png" />
+C. <img link = "jtp.png" />
+D. <img src = "jtp.png" />
+
+6) <input> is -
+
+A. a format tag.
+B. an empty tag.
+C. All of the above
+D. None of the above
+
+
+On submit we have display all questions correct answer and user choosen answer right or wrong
+
+if user answer is correct we have to show Green color .
+if user answer is wrong we have to show Red Color as background for that option user choosen and Green color for correct option.
+
+--> Each question have 2 marks
+Correct answer - 2 marks
+
+
+-----Grading system----
+## 8 - 10(5 questions correct) A
+## 6 - 8 (4 questions correct) B
+## 4 - 6 (3 questions correct) C
+## 2 - 4 (2 questions correct) D
+## 0 - 2 (1 questions correct) E
+## 0 (0 questions correct ) F
+
+Based on the user answers we will show the marks user obtained / total marks on modal.
+Based on the marks he got the grade has to be calculated and the grade should be displayed on modal.
+The Modal should be like
+
+If 4 are correct
+Result is 
+    Score : 8/10
+    Grade : B

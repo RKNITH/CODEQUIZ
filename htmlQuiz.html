@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz App</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://fonts.google.com/specimen/Shizuru#standard-styles">
+    <link rel="stylesheet" href="style.css">
+    <script src="htmlQuizscript.js"></script>
+</head>
+
+<body>
+    <div class="header">
+        <h1>My Quiz APP</h1>
+    </div>
+    <form name="quiz" id="quiz">
+        <div class="quiz">
+
+            <div class="Q1">
+                <h5> 1) HTML stands for - </h5>
+                <p id="Q1-a">
+                    <input id="Q1-A" name="Q1" value="A" type="radio">
+                    <label for="Q1-A">A.HighText Machine Language</label>
+                </p>
+                <p id="Q1-b">
+                    <input id="Q1-B" name="Q1" value="B" type="radio">
+                    <label for="Q1-B"> B.HyperText and links Markup Language</label>
+                </p>
+                <p id="Q1-c">
+                    <input id="Q1-C" name="Q1" value="C" type="radio">
+                    <label for="Q1-C"> C.HyperText Markup Language</label>
+                </p>
+                <p id="Q1-d">
+                    <input id="Q1-D" name="Q1" value="D" type="radio">
+                    <label for="Q1-D"> D.None of these</label>
+                </p>
+            </div>
+            <hr size="8">
+            <div class="Q2">
+                <h5> 2) The correct sequence of HTML tags for starting a webpage is </h5>
+                <p id="Q2-a">
+                    <input id="Q2-A" name="Q2" value="A" type="radio">
+                    <label for="Q2-A"> A. Head, Title, HTML, body</label>
+                </p>
+                <p id="Q2-b">
+                    <input id="Q2-B" name="Q2" value="B" type="radio">
+                    <label for="Q2-B">B. HTML, Body, Title, Head</label>
+                </p>
+                <p id="Q2-c">
+                    <input id="Q2-C" name="Q2" value="C" type="radio">
+                    <label for="Q2-C"> C.HTML, Title, Head, Body</label>
+                </p>
+                <p id="Q2-d">
+                    <input id="Q2-D" name="Q2" value="D" type="radio">
+                    <label for="Q2-D"> D. HTML, Head, Title, Body</label>
+                </p>
+            </div>
+            <hr>
+            <div class="Q3">
+                <h5>3) How many heading tags in HTML?</h5>
+                <p id="Q3-a">
+                    <input id="Q3-A" name="Q3" value="A" type="radio">
+                    <label for="Q3-A"> A.3</label>
+                </p>
+                <p id="Q3-b">
+                    <input id="Q3-B" name="Q3" value="B" type="radio">
+                    <label for="Q3-B"> B.6</label>
+                </p>
+                <p id="Q3-c">
+                    <input id="Q3-C" name="Q3" value="C" type="radio">
+                    <label for="Q3-C">C.5</label>
+                </p>
+                <p id="Q3-d">
+                    <input id="Q3-D" name="Q3" value="D" type="radio">
+                    <label for="Q3-D">D.8</label>
+                </p>
+            </div>
+            <hr>
+            <div class="Q4">
+                <h5>4) What is the smallest heading in HTML ? </h5>
+                <p id="Q4-a">
+                    <input id="Q4-A" name="Q4" value="A" type="radio">
+                    <label for="Q4-A">A. h1</label>
+                </p>
+                <p id="Q4-b">
+                    <input id="Q4-B" name="Q4" value="B" type="radio">
+                    <label for="Q4-B">B. h2</label>
+                </p>
+                <p id="Q4-c">
+                    <input id="Q4-C" name="Q4" value="C" type="radio">
+                    <label for="Q4-C">C. h6</label>
+                </p>
+                <p id="Q4-d">
+                    <input id="Q4-D" name="Q4" value="D" type="radio">
+                    <label for="Q4-D">D. h9</label>
+                </p>
+            </div>
+            <hr>
+            <div class="Q5">
+                <h5>5) Input is -</h5>
+                <p id="Q5-a">
+                    <input id="Q5-A" name="Q5" value="A" type="radio">
+                    <label for="Q5-A"> A. a format tag. </label>
+                </p>
+                <p id="Q5-b">
+                    <input id="Q5-B" name="Q5" value="B" type="radio">
+                    <label for="Q5-B"> B. an empty tag.</label>
+                </p>
+                <p id="Q5-c">
+                    <input id="Q5-C" name="Q5" value="C" type="radio">
+                    <label for="Q5-C"> C. All of the above</label>
+                </p>
+                <p id="Q5-d">
+                    <input id="Q5-D" name="Q5" value="D" type="radio">
+                    <label for="Q5-D"> D. None of the above</label>
+                </p>
+            </div>
+            <!-- <input type="button" value="Submit" id="button" onclick="result()"> -->
+            <button class="btn btn-primary btn-lg custom-modal" id="button" onclick="result()">Submit</button>
+            <div class="modal fade" id="myModal" role="dialog">
+                <div class="modal-dialog modal-sm">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <button type="button" class="close" data-dismiss="modal">&times;</button>
+                            <h4 class="modal-title">Result is</h4>
+                        </div>
+                        <div class="modal-body">
+                            <p> </p>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                            <button><a href="index.html" style="text-decoration: none;">Home</a></button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    </form>
+    <div class="footer">
+        <h4 style="text-align: center;">&copy;2024 copy rights</h4>
+
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,74 @@
+<div class="quiz">
+       <h2 id="Q1">1) HTML stands for -</h2>
+       <ul>
+           <li><input id="Q1-A" name="Q1" type="radio">A.HighText Machine Language</li>
+           <li><input id="Q1-B" name="Q1" type="radio">B.HyperText and links Markup Language</li>
+           <li><input id="Q1-C" name="Q1" type="radio">C.HyperText Markup Language</li>
+           <li><input id="Q1-D" name="Q1" type="radio">D.None of these</li>
+       </ul>
+       <h2 id="Q2">2) The correct sequence of HTML tags for starting a webpage is -</h2>
+       <ul>
+           <li><input id="Q2-A" name="Q2" type="radio">A. Head, Title, HTML, body</li>
+           <li><input id="Q2-B" name="Q2" type="radio">B. HTML, Body, Title, Head</li>
+           <li><input id="Q2-C" name="Q2" type="radio">C. HTML, Title, Head, Body</li>
+           <li><input id="Q2-D" name="Q2" type="radio">D. HTML, Head, Title, Body</li>
+       </ul>
+       <h2 id="Q3">3) how many heading tags in HTML?</h2>
+       <ul>
+           <li><input id="Q3-A" name="Q3" type="radio">A. 3</li>
+           <li><input id="Q3-B" name="Q3" type="radio">B. 6</li>
+           <li><input id="Q3-C" name="Q3" type="radio">C. 5</li>
+           <li><input id="Q3-D" name="Q3" type="radio">D. 8</li>
+       </ul>
+       <h2 id="Q4">4) what is the smallest heading in HTML ?</h2>
+       <ul>
+           <li><input id="Q4-A" name="Q4" type="radio">A. h1</li>
+           <li><input id="Q4-B" name="Q4" type="radio">B. h2</li>
+           <li><input id="Q4-C" name="Q4" type="radio">C. h6</li>
+           <li><input id="Q4-D" name="Q4" type="radio">D. h9</li>
+       </ul>
+       <h2 id="Q5">5) input is -</h2>
+       <ul>
+           <li><input id="Q5-A" name="Q5" type="radio">A. a format tag. </li>
+           <li><input id="Q5-B" name="Q5" type="radio">B. an empty tag.</li>
+           <li><input id="Q5-C" name="Q5" type="radio">C. All of the above</li>
+           <li><input id="Q5-D" name="Q5" type="radio">D. None of the above</li>
+       </ul>
+       <fieldset data-role="controlgroup">
+        <legend></legend>
+        <label for="Arrived/Left">Arrived/Left Destination</label>
+        <input type="radio" name="status" id="Arrived/Left" value="Arrived/Left">
+        <label for="Delayed">Delayed</label>
+        <input type="radio" name="status" id="Delayed" value="Delayed">
+        <label for="Canceled">Canceled</label>
+        <input type="radio" name="status" id="Canceled" value="Canceled">
+        <label for="getupdate">Post to Get Update ?</label>
+        <input type="radio" name="status" id="getupdate" value="getupdate">
+        <label for="Other">Other</label>
+        <input type="radio" name="status" id="Other" value="Other">
+      </fieldset>
+       <!-- <p>Please select your favorite Web language:</p>
+        <input type="radio" id="html" name="fav_language" value="HTML">
+        <label for="html">HTML</label><br>
+        <input type="radio" id="css" name="fav_language" value="CSS">
+        <label for="css">CSS</label><br>
+        <input type="radio" id="javascript" name="fav_language" value="JavaScript">
+        <label for="javascript">JavaScript</label> -->
+    </div>
+
+
+    <div class="Q6">
+        <h5>6) Favorite Language</h5>
+        <p id="Q6-a">
+        <input type="radio" id="html" name="fav_language" value="HTML">
+        <label for="html">HTML</label>
+        </p><br>
+        <p id="Q6-b">
+        <input type="radio" id="css" name="fav_language" value="CSS">
+        <label for="css">CSS</label>
+        </p><br>
+        <p id="Q6-c">
+        <input type="radio" id="javascript" name="fav_language" value="JavaScript">
+        <label for="javascript">JavaScript</label>
+        </p>
+    </div>
